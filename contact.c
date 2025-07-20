@@ -119,12 +119,11 @@ void ModifyContact(Contact* con) {
 			printf("Enter new gender:");
 			scanf("%s", con->data[i].gender);
 			printf("Enter new age: ");
-			scanf("%d", &con->data[con->size].age);
+			scanf("%d", &con->data[i].age);
 			printf("Enter new phone: ");
-			scanf("%s", con->data[con->size].phone);
+			scanf("%s", con->data[i].phone);
 			printf("Enter new address: ");
-			scanf("%s", con->data[con->size].address);
-			con->size++;
+			scanf("%s", con->data[i].address);
 			printf("Contact modify successfully!\n");
 		}
 	}
