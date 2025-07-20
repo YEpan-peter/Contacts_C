@@ -6,7 +6,7 @@
 
 typedef struct PeoInf {
 	char name[20];
-	char gender[6];
+	char gender[7];
 	int age;
 	char phone[12];
 	char address[50];
